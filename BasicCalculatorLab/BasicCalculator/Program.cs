@@ -15,7 +15,7 @@ namespace BasicCalculator
 
             Console.WriteLine("Enter the Relative Humidity");
             int RelativeHumidity = int.Parse(Console.ReadLine());
-
+       
             int DewPoint = temperature - 9 * (100 - RelativeHumidity) / 25;
 
             Console.WriteLine("The dew point is " + DewPoint);
